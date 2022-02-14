@@ -1,0 +1,15 @@
+.contentwrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  /* background: black; */
+  justify-content: center;
+}
+
+.sedans, .suv, .lux {
+  border: 1px red solid;
+  background-color: pink;
+}
+
+.sedans {
+  
+}
