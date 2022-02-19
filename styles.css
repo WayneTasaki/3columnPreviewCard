@@ -1,15 +1,93 @@
-.contentwrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 25rem);
-  /* background: black; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexwrapper {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
 }
 
-.sedans, .suv, .lux {
-  border: 1px red solid;
-  background-color: pink;
-}
-
-.sedans {
+.card {
+  display: flex;
+  flex-direction: row;
+  max-width: 57.95rem;
+  min-width: 20.438rem;
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  border-radius: 8px;
   
 }
+
+.sedans, .suvs, .lux {
+  /* border: 1px red solid;
+  background-color: pink; */
+  width: 19.188rem;  
+}
+
+img {
+  margin-left: 2.969rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-family: Big Shoulders Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #F2F2F2;
+  margin-left: 2.969rem;
+  margin-top: 1.563rem;
+}
+
+p {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  width: 13.25rem;
+  margin-left: 2.969rem;
+  margin-top: 1.563rem;
+  margin-bottom: 5.188rem;
+}
+
+button {
+  border: none;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  padding: .75rem 1.969rem;
+  background: #F2F2F2;
+  border-radius: 25px;
+  font-size: 15px;
+  color: #E28625;
+}
+
+
+.sedans {
+  background: #E28625;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.suvs {
+  background: #006971;
+}
+
+.lux {
+  background: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* change button text */
