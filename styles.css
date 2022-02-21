@@ -3,9 +3,8 @@
   padding: 0;
 }
 
-html {
-  /* width: 100vw;
-  min-height: 100vh; */
+body {
+  background: hsl(0, 0%, 95%);
 }
 
 .flexwrapper {
@@ -22,17 +21,15 @@ html {
   flex-direction: row;
   /* max-width: 57.95rem; */
   /* min-width: 20.438rem; */
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: aquamarine;
   border-radius: 8px;
-  
 }
 
-.sedans, .suvs, .lux {
-  /* border: 1px red solid;
-  background-color: pink; */
+.sedans,
+.suvs,
+.lux {
   width: 19.188rem;
 }
 
@@ -47,12 +44,10 @@ h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height */
   text-transform: uppercase;
-  color: #F2F2F2;
+  color: #f2f2f2;
   margin-left: 2.969rem;
   margin-top: 2.188rem;
-  
 }
 
 p {
@@ -61,7 +56,7 @@ p {
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.75;
   width: 13.25rem;
@@ -71,31 +66,33 @@ p {
 }
 
 button {
-  border: .15rem solid transparent;
+  border: 0.15rem solid transparent;
   margin-left: 3rem;
   margin-bottom: 3rem;
   padding: 0.538rem 1.819rem;
-  background: #F2F2F2;
+  background: #f2f2f2;
   border-radius: 25px;
   font-size: 15px;
   line-height: 25px;
-  color: #E28625;
   font-family: Lexend Deca;
   cursor: pointer;
-
 }
 button:hover {
   background: none;
-  color: #F2F2F2;
-  border: #F2F2F2 solid .15rem;
+  color: #f2f2f2;
+  border: #f2f2f2 solid 0.15rem;
 }
 
-
 .sedans {
-  background: #E28625;
+  background: #e28625;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  
+}
+.sedans button {
+  color: #e28625;
+}
+.sedans button:hover {
+  color: #f2f2f2;
 }
 
 .suvs {
@@ -103,6 +100,9 @@ button:hover {
 }
 .suvs button {
   color: #006971;
+}
+.suvs button:hover {
+  color: #f2f2f2;
 }
 
 .lux {
@@ -113,5 +113,39 @@ button:hover {
 .lux button {
   color: #004140;
 }
+.lux button:hover {
+  color: #f2f2f2;
+}
 
-/* change button text */
+/* Attribution */
+.attribution {
+  font-family: Lexend Deca;
+  color: #004140;
+  margin-top: 1rem;
+  font-size: .9rem;
+}
+.attribution a {
+  text-decoration: none;
+  color: #006971;
+}
+.attribution a:hover {
+  color: #e28625;
+}
+
+/* Media Queries */
+
+@media (max-width: 920px) {
+  .card {
+    background: pink;
+    flex-direction: column;
+    margin-top: 4.5rem;
+  }
+  .sedans {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+  .lux {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+  }
+}
