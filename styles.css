@@ -138,7 +138,7 @@ button:hover {
   .card {
     background: pink;
     flex-direction: column;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
   }
   .sedans {
     border-top-right-radius: 8px;
