@@ -38,3 +38,4 @@ Your users should be able to:
 - 
 
 ## What I learned
+One thing that tripped me up was the button hover state. I had the button styled with no border, but when I added the hover state, I set the background to none, and added a .15rem(2.4px) border. Unfortunately this kept pushing the other content and breaking the design. My first solution was to make the button slightly smaller during the hover state and then the added border would make up the difference. I believe this could have worked, but I instead searched Google for a more elegant solution. I found a GENIUS idea <a href="https://stackoverflow.com/questions/18887058/css-hover-creating-border-but-pushing-content"> here on Stack Overflow</a>. They suggested adding the border on the button but set the color to transparent, then on the hover state you can just change "transparent" to whichever color is needed. What a much better solution than my first idea!

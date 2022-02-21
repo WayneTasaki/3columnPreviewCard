@@ -3,21 +3,28 @@
   padding: 0;
 }
 
+html {
+  /* width: 100vw;
+  min-height: 100vh; */
+}
+
 .flexwrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  /* width: 100vw; */
   min-height: 100vh;
 }
 
 .card {
   display: flex;
   flex-direction: row;
-  max-width: 57.95rem;
-  min-width: 20.438rem;
+  /* max-width: 57.95rem; */
+  /* min-width: 20.438rem; */
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background-color: aquamarine;
   border-radius: 8px;
   
@@ -26,7 +33,7 @@
 .sedans, .suvs, .lux {
   /* border: 1px red solid;
   background-color: pink; */
-  width: 19.188rem;  
+  width: 19.188rem;
 }
 
 img {
@@ -44,7 +51,8 @@ h2 {
   text-transform: uppercase;
   color: #F2F2F2;
   margin-left: 2.969rem;
-  margin-top: 1.563rem;
+  margin-top: 2.188rem;
+  
 }
 
 p {
@@ -63,16 +71,23 @@ p {
 }
 
 button {
-  border: none;
+  border: .15rem solid transparent;
   margin-left: 3rem;
   margin-bottom: 3rem;
-  padding: .75rem 1.969rem;
+  padding: 0.538rem 1.819rem;
   background: #F2F2F2;
   border-radius: 25px;
   font-size: 15px;
+  line-height: 25px;
   color: #E28625;
   font-family: Lexend Deca;
+  cursor: pointer;
 
+}
+button:hover {
+  background: none;
+  color: #F2F2F2;
+  border: #F2F2F2 solid .15rem;
 }
 
 
@@ -80,6 +95,7 @@ button {
   background: #E28625;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  
 }
 
 .suvs {
