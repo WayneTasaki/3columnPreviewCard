@@ -71,6 +71,8 @@ button {
   border-radius: 25px;
   font-size: 15px;
   color: #E28625;
+  font-family: Lexend Deca;
+
 }
 
 
@@ -83,11 +85,17 @@ button {
 .suvs {
   background: #006971;
 }
+.suvs button {
+  color: #006971;
+}
 
 .lux {
   background: #004140;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+.lux button {
+  color: #004140;
 }
 
 /* change button text */
