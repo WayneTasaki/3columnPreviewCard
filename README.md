@@ -33,7 +33,7 @@ Your users should be able to:
 
 ## Built with
 
-HTML, CSS
+<p>HTML, CSS</p>
 - 
 
 ## What I learned
