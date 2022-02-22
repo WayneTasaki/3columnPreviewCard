@@ -3,10 +3,9 @@
 
 <div align="center">
   <h3>
-  <p> ⚠️ CURRENTLY IN PROGRESS ⚠️</p>
-    <a href="">🌐 Live Site </a>  |  
-    <a href=""> Solution </a> | 
-    <a href=""> Challenge </a> 
+    <a href="https://waynetasaki.github.io/3columnPreviewCard/">🌐 Live Site </a>  |  
+    <a href="https://www.frontendmentor.io/solutions/3column-preview-card-component-WP-ewiTpa"> Solution </a> | 
+    <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-"> Challenge </a> 
   </h3>
 </div>
 <div align="center">
@@ -34,7 +33,7 @@ Your users should be able to:
 
 
 ## Built with 
-
+HTML, CSS
 - 
 
 ## What I learned
