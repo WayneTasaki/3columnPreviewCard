@@ -1,4 +1,4 @@
-<img src="https://github.com/WayneTasaki/3columnPreviewCard/blob/main/design/desktop-preview.jpg"></img>
+<img src="https://i.ibb.co/JH2Vckw/Screen-Shot-2022-02-21-at-10-44-58-PM.png"></img>
 <h1 align="center">NFT preview card component</h1>
 
 <div align="center">
@@ -11,7 +11,6 @@
 <div align="center">
    Solution for a challenge from  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
 </div>
-<br>
 <br>
 
 ## About This Project
@@ -32,7 +31,8 @@ Your users should be able to:
 
 
 
-## Built with 
+## Built with
+
 HTML, CSS
 - 
 
